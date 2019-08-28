@@ -1,0 +1,8 @@
+
+# Auteur   Martin Dubois, ing.
+# Produit  Enseignement/C_Cpp
+# Fichier  .gitignore
+
+/.vs/
+
+Debug/
