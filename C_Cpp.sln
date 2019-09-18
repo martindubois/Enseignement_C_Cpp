@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableauDynamique", "Tableau
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableauDynamique_Partie2", "TableauDynamique_Partie2\TableauDynamique_Partie2.vcxproj", "{9A00B9DC-C262-4BD6-B87A-3AD8460E0ED0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML_Canon", "SFML_Canon\SFML_Canon.vcxproj", "{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -117,6 +119,14 @@ Global
 		{9A00B9DC-C262-4BD6-B87A-3AD8460E0ED0}.Release|x64.Build.0 = Release|x64
 		{9A00B9DC-C262-4BD6-B87A-3AD8460E0ED0}.Release|x86.ActiveCfg = Release|Win32
 		{9A00B9DC-C262-4BD6-B87A-3AD8460E0ED0}.Release|x86.Build.0 = Release|Win32
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Debug|x64.ActiveCfg = Debug|x64
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Debug|x64.Build.0 = Debug|x64
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Debug|x86.Build.0 = Debug|Win32
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Release|x64.ActiveCfg = Release|x64
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Release|x64.Build.0 = Release|x64
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Release|x86.ActiveCfg = Release|Win32
+		{B0FDFBC1-A931-45E6-9188-C0F1A13C0ED5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
