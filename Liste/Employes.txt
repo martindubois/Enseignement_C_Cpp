@@ -1,0 +1,13 @@
+Bourgault Sylvain 1978-04-19 2020-01-01 Responsable de l'equipe logiciel
+Brown Charlie 2009-10-20 2020-10-24 Tueur de projet
+Dubois France 1965-06-11 2010-04-01 Technicienne en compatabilite
+Garon Martin 1971-03-14 2020-03-01 Developpeur de logiciel embarque
+Lemieux Steve 1970-08-30 2020-09-01 Ingenieur
+Musk Elon 1990-11-11 2020-12-23 Chauffeur
+Noris Chuck 1960-06-19 2020-06-01 Eliminateur de probleme
+Rivard Alain 1969-05-22 2020-02-01 Directeur des operations
+Simson Bart 2006-09-09 2020-09-01 Directeur des niaiseries
+Stone Emma 1995-01-30 2021-01-02 Directrice des communication
+Tremblay Guy 1967-02-02 2020-08-01 Vendeur
+Boisvert Eric, 1970-02-17 2020-07-01 Developpeur de FPGA
+Dubois Michele 1964-03-10 2010-05-01 Secretaire
