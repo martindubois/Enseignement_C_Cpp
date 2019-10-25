@@ -121,7 +121,7 @@ void AjusterSprite(sf::Sprite * aSprite, unsigned int aBas_Colonne, unsigned int
     // QUESTION #6 - A quoi sert le "0.0f - " ?
     aSprite->setRotation(0.0f - RadianToDegre(atan2(lDiff_X, lDiff_Y)));
     // QUESTION #7 - Pourquoi le "Scale" en X est-il ajuste ?
-    aSprite->setScale   (CASE_LARGEUR / (float)(lSize.x), lDiff_Y / lSize.y);
+    aSprite->setScale   (CASE_LARGEUR / (float)(lSize.x), sqrt( lDiff_X * lDiff_X + lDiff_Y * lDiff_Y ) / lSize.y);
 }
 
 void DessinerGrille(sf::RenderWindow * aWindow)
