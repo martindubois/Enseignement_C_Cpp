@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "File2", "File2\File2.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_File", "STL_File\STL_File.vcxproj", "{B854174B-9401-4DD2-97F8-F7FB38B718F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku", "Sudoku\Sudoku.vcxproj", "{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -187,6 +189,14 @@ Global
 		{B854174B-9401-4DD2-97F8-F7FB38B718F1}.Release|x64.Build.0 = Release|x64
 		{B854174B-9401-4DD2-97F8-F7FB38B718F1}.Release|x86.ActiveCfg = Release|Win32
 		{B854174B-9401-4DD2-97F8-F7FB38B718F1}.Release|x86.Build.0 = Release|Win32
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Debug|x64.ActiveCfg = Debug|x64
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Debug|x64.Build.0 = Debug|x64
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Debug|x86.Build.0 = Debug|Win32
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Release|x64.ActiveCfg = Release|x64
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Release|x64.Build.0 = Release|x64
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Release|x86.ActiveCfg = Release|Win32
+		{C9596D0D-EC0C-4ECF-A5F1-28E662903FCB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
