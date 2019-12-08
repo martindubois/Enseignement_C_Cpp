@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku", "Sudoku\Sudoku.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL_Liste", "STL_Liste\STL_Liste.vcxproj", "{BCEAC9D7-8CAF-472F-9674-8475EB65E8C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallonMusical", "BallonMusical\BallonMusical.vcxproj", "{2A42338B-BD08-43F7-A93A-5364A4120F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -207,6 +209,14 @@ Global
 		{BCEAC9D7-8CAF-472F-9674-8475EB65E8C6}.Release|x64.Build.0 = Release|x64
 		{BCEAC9D7-8CAF-472F-9674-8475EB65E8C6}.Release|x86.ActiveCfg = Release|Win32
 		{BCEAC9D7-8CAF-472F-9674-8475EB65E8C6}.Release|x86.Build.0 = Release|Win32
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Debug|x64.ActiveCfg = Debug|x64
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Debug|x64.Build.0 = Debug|x64
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Debug|x86.Build.0 = Debug|Win32
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Release|x64.ActiveCfg = Release|x64
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Release|x64.Build.0 = Release|x64
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Release|x86.ActiveCfg = Release|Win32
+		{2A42338B-BD08-43F7-A93A-5364A4120F92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
