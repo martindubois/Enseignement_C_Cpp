@@ -21,6 +21,7 @@
 static void Ajouter (File_Personne * aPersonnes, const char * aPrenom);
 static void Suivant (File_Personne * aPersonnes);
 static void Terminer(File_Personne * aPersonnes);
+static void Urgence (File_Personne * aPersonnes, const char * aPrenom);
 
 // Point d'entre
 /////////////////////////////////////////////////////////////////////////////
@@ -52,6 +53,7 @@ int main()
             if      ((2 == lRet) && (0 == _stricmp("Ajouter" , lCommande))) { Ajouter (&lPersonnes, lPrenom); }
             else if ((1 == lRet) && (0 == _stricmp("Suivant" , lCommande))) { Suivant (&lPersonnes);          }
             else if ((1 == lRet) && (0 == _stricmp("Terminer", lCommande))) { Terminer(&lPersonnes); lContinuer = false; }
+            else if ((2 == lRet) && (0 == _stricmp("Urgence" , lCommande))) { Urgence (&lPersonnes, lPrenom); }
             else
             {
                 printf("ERREUR  La commande n'est pas valide\n");
@@ -109,4 +111,19 @@ void Terminer(File_Personne * aPersonnes)
         Personne_Afficher(lPersonne);
         Personne_Liberer (lPersonne);
     }
+}
+
+void Urgence(File_Personne * aPersonnes, const char * aPrenom)
+{
+    Personne * lPersonne;
+
+    assert(NULL != aPersonnes);
+    assert(NULL != aPrenom   );
+
+    lPersonne = Personne_Allouer();
+    assert(NULL != lPersonne);
+
+    strncpy_s(lPersonne->mPrenom, sizeof(lPersonne->mPrenom), aPrenom, sizeof(lPersonne->mPrenom) - 1);
+
+    File_Personne_Ajouter_2(aPersonnes, lPersonne);
 }

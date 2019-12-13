@@ -35,6 +35,25 @@ void File_Personne_Ajouter(File_Personne * aPersonnes, Personne * aPersonne)
     }
 }
 
+void File_Personne_Ajouter_2(File_Personne * aPersonnes, Personne * aPersonne)
+{
+    assert(NULL != aPersonnes);
+    assert(NULL != aPersonne );
+
+    if (NULL == aPersonnes->mPremier)
+    {
+        aPersonnes->mDernier = aPersonne;
+        aPersonnes->mPremier = aPersonne;
+    }
+    else
+    {
+        assert(NULL != aPersonnes->mDernier);
+
+        aPersonne ->mSuivant = aPersonnes->mPremier;
+        aPersonnes->mPremier = aPersonne;
+    }
+}
+
 void File_Personne_Initialiser(File_Personne * aPersonnes)
 {
     assert(NULL != aPersonnes);
