@@ -7,6 +7,8 @@
 /////////////////////////////////////////////////////////////////////////////
 
 // ===== C ==================================================================
+#include <assert.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -54,7 +56,24 @@ int main()
 
 void Jouer(Joueur * aJoueurCourant, unsigned int aTempsRestant_s)
 {
+    Joueur     * lJoueurCourant  = aJoueurCourant ;
+    unsigned int lTempsRestant_s = aTempsRestant_s;
 
+    assert(NULL != aJoueurCourant);
+
+    while (lTempsRestant_s >= lJoueurCourant->mTemps_s)
+    {
+        assert(NULL != lJoueurCourant->mNom    );
+        assert(NULL != lJoueurCourant->mSuivant);
+
+        printf("%s a le ballon\n", lJoueurCourant->mNom);
+
+        lTempsRestant_s -= lJoueurCourant->mTemps_s;
+
+        lJoueurCourant = lJoueurCourant->mSuivant;
+    }
+
+    printf("%s a perdu\n", lJoueurCourant->mNom);
 }
 
 Joueur * ListeJoueurs_Creer()
@@ -64,7 +83,7 @@ Joueur * ListeJoueurs_Creer()
     Joueur * lJustin = malloc(sizeof(Joueur));
     Joueur * lMartin = malloc(sizeof(Joueur));
 
-    lArture->mNom = "Arture Laroche"; lMartin->mTemps_s = 1;
+    lArture->mNom = "Arture Laroche"; lArture->mTemps_s = 1;
     lDonald->mNom = "Donald Trump"  ; lDonald->mTemps_s = 4;
     lJustin->mNom = "Justin Trudeau"; lJustin->mTemps_s = 3;
     lMartin->mNom = "Martin Dubois" ; lMartin->mTemps_s = 2;
